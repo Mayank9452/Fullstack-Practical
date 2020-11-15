@@ -99,19 +99,19 @@
         let hour = today.getHours();
         console.log(hour);
         if (hour < 12) {
-            document.body.style.backgroundImage = 'url("/images/morning.jpeg")';
+            document.body.style.backgroundImage = 'url("/images/morning.png")';
             document.body.style.backgroundSize = "100%";
             greeting.innerHTML = "Good Morning";
 
         }
         else if (hour < 18) {
-            document.body.style.backgroundImage = 'url("/images/evening.jpeg")';
+            document.body.style.backgroundImage = 'url("/images/evening.png")';
             greeting.innerHTML = "Good AfterNoon";
             document.body.style.backgroundSize = "100%";
 
         }
         else {
-            document.body.style.backgroundImage = 'url("/images/night.jpeg")';
+            document.body.style.backgroundImage = 'url("/images/night.png")';
             greeting.innerHTML = "Good Night";
             document.body.style.backgroundSize = "100%";
             time.style.color = "white";
